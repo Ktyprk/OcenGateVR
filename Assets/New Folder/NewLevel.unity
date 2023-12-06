@@ -18,13 +18,13 @@ RenderSettings:
   m_FogColor: {r: 0.10827694, g: 0.5263122, b: 0.745283, a: 1}
   m_FogMode: 1
   m_FogDensity: 0.04
-  m_LinearFogStart: 0
-  m_LinearFogEnd: 100
-  m_AmbientSkyColor: {r: 0.019607844, g: 0.019607844, b: 0.019607844, a: 1}
-  m_AmbientEquatorColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
-  m_AmbientGroundColor: {r: 0.39215687, g: 0.8784314, b: 1, a: 1}
+  m_LinearFogStart: -25
+  m_LinearFogEnd: 150
+  m_AmbientSkyColor: {r: 0, g: 0.21266767, b: 0.3301887, a: 1}
+  m_AmbientEquatorColor: {r: 0.14241719, g: 0.5013729, b: 0.5943396, a: 1}
+  m_AmbientGroundColor: {r: 0.21402632, g: 0.65074563, b: 0.6792453, a: 1}
   m_AmbientIntensity: 0.3
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
@@ -33,8 +33,8 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 256
-  m_ReflectionBounces: 1
+  m_DefaultReflectionResolution: 512
+  m_ReflectionBounces: 5
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
@@ -302,7 +302,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.8305974, b: 1, a: 1}
   m_Intensity: 0.3
   m_Range: 10
   m_SpotAngle: 30
@@ -312,7 +312,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 0.18
+    m_Strength: 0
     m_Bias: 2
     m_NormalBias: 2.65
     m_NearPlane: 4.2
@@ -345,7 +345,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 5
+  m_BounceIntensity: 10
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -547,10 +547,10 @@ MonoBehaviour:
   finalBlitToCameraTarget: 0
   antialiasingMode: 3
   temporalAntialiasing:
-    jitterSpread: 0.75
-    sharpness: 0.25
-    stationaryBlending: 0.95
-    motionBlending: 0.85
+    jitterSpread: 0.791
+    sharpness: 0
+    stationaryBlending: 0.99
+    motionBlending: 0.99
   subpixelMorphologicalAntialiasing:
     quality: 2
   fastApproximateAntialiasing:
@@ -628,7 +628,7 @@ Camera:
   m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
+  m_FocalLength: 23.551327
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -662,11 +662,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1762310244}
-  m_LocalRotation: {x: 0.17429194, y: 0.19611822, z: -0.035438873, w: 0.96431535}
-  m_LocalPosition: {x: 465.53, y: 40.34, z: 526.17}
+  m_LocalRotation: {x: 0.06778079, y: 0.0038434356, z: -0.028443344, w: 0.99728733}
+  m_LocalPosition: {x: 452.91, y: 43.89, z: 510.96}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 20.49, y: 22.992, z: 0.001}
+  m_LocalEulerAnglesHint: {x: 7.782, y: 0.22, z: -3.252}
